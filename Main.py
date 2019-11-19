@@ -1,8 +1,10 @@
 def main():
-    print("Hello! Welcome to the main menu.")
+    print("Welcome to 'Python Basics' tutorial!")
+    print("Read the main menu careful to select which tutorial you'd like to see.")
+    print("Main Menu")
     userContinue = True
     while userContinue:
-        print("Enter a choice:")
+        print("Enter the number corresponding to the tutorial you want to see:")
         print("1. ")
         print("2. ")
         print("3. ")
