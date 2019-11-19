@@ -16,27 +16,18 @@ def main():
         print("9. ")
         print("10. ")
         print("11. Exit")
-        selection = int(input())
-        if selection == 1 :
-
-        elif selection == 2:
-
-        elif selection == 3:
-
-        elif selection == 4:
-
-        elif selection == 5:
-
-        elif selection == 6:
-
-        elif selection == 7:
-
-        elif selection == 8:
-
-        elif selection == 9:
-
-        elif selection == 10:
-
+        number = int(input())
+        if number == 1 :
+#Fix indentation problem here
+        elif number == 2:
+        elif number == 3:
+        elif number == 4:
+        elif number == 5:
+        elif number == 6:
+        elif number == 7:
+        elif number == 8:
+        elif number == 9:
+        elif number == 10:
         else:
             print("Error: Invalid Selection")
 
