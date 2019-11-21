@@ -14,8 +14,8 @@ def main():
     print(
         "Read the main menu careful to select which tutorial you'd like to see.")
     print("Main Menu")
-    userContinue = True
-    while userContinue:
+    user_continue = True
+    while user_continue:
         print(
             "Enter the number corresponding to the tutorial you want to see:")
         print("1. ")
