@@ -1,10 +1,23 @@
+"""
+This is my main file for my project.
+___author___ = Cristal Ramos
+"""
+
+
+# REMEMBER TO CITE EVERYTHING!
 def main():
+    """
+
+    :return:
+    """
     print("Welcome to 'Python Basics' tutorial!")
-    print("Read the main menu careful to select which tutorial you'd like to see.")
+    print(
+        "Read the main menu careful to select which tutorial you'd like to see.")
     print("Main Menu")
     userContinue = True
     while userContinue:
-        print("Enter the number corresponding to the tutorial you want to see:")
+        print(
+            "Enter the number corresponding to the tutorial you want to see:")
         print("1. ")
         print("2. ")
         print("3. ")
@@ -17,8 +30,8 @@ def main():
         print("10. ")
         print("11. Exit")
         number = int(input())
-        if number == 1 :
-#Fix indentation problem here
+        if number == 1:
+        # Fix indentation problem here
         elif number == 2:
         elif number == 3:
         elif number == 4:
@@ -30,5 +43,6 @@ def main():
         elif number == 10:
         else:
             print("Error: Invalid Selection")
+
 
 main()
