@@ -46,17 +46,26 @@ def main():
             print("You have chosen the following tutorial 'How to use "
                   "Formatting'")
         elif number == 5:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use "
+                  "Boolean Expressions'")
         elif number == 6:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use "
+                  "If/Else Statements'")
         elif number == 7:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use "
+                  "Nestled If/Else statements'")
         elif number == 8:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use While "
+                  "Loops'")
         elif number == 9:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use For "
+                  "Loops'")
         elif number == 10:
-            print("You have chosen the following tutorial '___'")
+            print("You have chosen the following tutorial 'How to use "
+                  "Nestled Loops'")
+        elif number == 11:
+            print("You have chosen the following tutorial 'How to use "
+                  "Predefined functions'")
         else:
             print("Error: Invalid Selection")
             print("Please enter a choice from the main menu.")
