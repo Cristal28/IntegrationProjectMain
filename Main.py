@@ -20,38 +20,43 @@ def main():
         print(
             "Enter the number corresponding to the tutorial you want to see:")
         print("1. How to use Literal Strings ")
-        print("2. How to use ")
-        print("3. ")
-        print("4. ")
-        print("5. ")
-        print("6. ")
-        print("7. ")
-        print("8. ")
-        print("9. ")
-        print("10. ")
+        print("2. How to use Input and Variables")
+        print("3. How to use 7 Arithmetic Operations")
+        print("4. How to use Formatting")
+        print("5. How to use Boolean Expressions")
+        print("6. How to use If/Else Statements")
+        print("7. How to use Nested If/Else Statements")
+        print("8. How to use While Loops")
+        print("9. How to use For Loops")
+        print("10. How to use Nested Loops")
+        print("11. How to use Predefined functions")
         print("11. Exit")
         number = int(input())
         if number == 1:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial 'How to use "
+                  "Literal Strings'")
         # Fix indentation problem here
         elif number == 2:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial 'How to use Input "
+                  "and Variables'")
         elif number == 3:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial 'How to use 7 "
+                  "Arithmetic Operations'")
         elif number == 4:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial 'How to use "
+                  "Formatting'")
         elif number == 5:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         elif number == 6:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         elif number == 7:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         elif number == 8:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         elif number == 9:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         elif number == 10:
-            print("You have chosen the following tutorial '___' ")
+            print("You have chosen the following tutorial '___'")
         else:
             print("Error: Invalid Selection")
             print("Please enter a choice from the main menu.")
