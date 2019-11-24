@@ -12,7 +12,7 @@ def main():
     """
     print("Welcome to 'Python Basics' tutorial!")
     print(
-        "Read the main menu careful to select which tutorial you'd like to "
+        "Read the main menu carefully to select which tutorial you'd like to "
         "see.")
     print("Main Menu")
     user_continue = True
@@ -30,7 +30,7 @@ def main():
         print("9. How to use For Loops")
         print("10. How to use Nested Loops")
         print("11. How to use Predefined functions")
-        print("11. Exit")
+        print("12. Exit")
         number = int(input())
         if number == 1:
             print("You have chosen the following tutorial 'How to use "
@@ -66,7 +66,11 @@ def main():
         elif number == 11:
             print("You have chosen the following tutorial 'How to use "
                   "Predefined functions'")
+        elif number == 12:
+            print("Thank you for using my tutorial Program. I hope you "
+                  "enjoyed it.")
         else:
+            user_continue = False
             print("Error: Invalid Selection")
             print("Please enter a choice from the main menu.")
 
