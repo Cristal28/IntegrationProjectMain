@@ -134,7 +134,7 @@ def run_quiz(questions):
             score += 1
     print("Your score is", score, "out of", len(questions))
 
+    print("Thank you for taking my quiz.I Hope you had fun!")
 
-print("Thank you for taking my quiz. I Hope you had fun! :)")
 
 run_quiz(questions)
