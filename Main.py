@@ -175,20 +175,6 @@ def run_quiz(new_questions):
     print("Your score is", score, "out of", len(new_questions))
 
 
-def :
-    pass
-
-
-try:
-    if len(score) == 12:
-        print("You are a Marvel Genius!")
-    elif len(score) < 6 > 12:
-        print('You did great, but you may want to refresh your mind! \n '
-              'Try Again!')
-    else:
-        print("Try again.")
-
-
 print("Thank you for taking my quiz.I Hope you had fun!")
 
 run_quiz(questions)
