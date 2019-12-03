@@ -114,14 +114,34 @@ question_number = [
     "\n(d) 3" '\n',
     # c
     "What team does Johnny Storm belong to? \n(a) The X-Men \n(b) The "
-    "Fantastic 4 \n(c) The Avengers \n(d) None of the Above '\n'",
+    "Fantastic 4 \n(c) The Avengers \n(d) None of the Above" '\n',
     # b
-    "Who came first? \n(a) Detective Comics \n(b)Marvel '\n'",
+    "Who came first? \n(a) Detective Comics \n(b)Marvel" '\n',
     # a
     "What is Loki's last Name? \n(a) Surtur-son \n(b) Odin-son \n(c) "
-    "Laufey-son \n(d) Urik-son '\n'"
+    "Laufey-son \n(d) Urik-son" '\n',
     # c
-    ""
+    "Who is Thor's sister in the MCU? \n(a)Freya \n(b)Nanna \n(c)Thrud \n(d) "
+    "Hela" '\n',
+    # d
+    "Who can pick up Thor's hammer? \n(a)Loki \n(b)Iron Man \n(c)Pepper \n("
+    "d) Captain America" '\n',
+    # d
+    "Who developed the super soldier serum in Captain America? \n(a) Dr. "
+    "Schmidt \n(b) Dr. Wiesel \n(c) Dr. Zola \n(d) Dr. Erskine" '\n',
+    # d
+    "What is Abominations's real name? \n(a) Brock Rumlow \n(b) Emil "
+    "Blonsky \n(c) Georges Batroc \n(d) Thunderbolt' Ross" '\n',
+    # b
+    "What was Sam Wilson before he became Falcon \n(a) A Navy Seal \n(b) A "
+    "Pararescue \n(c) A Pilot \n(d) A Professional Daredevil" '\n',
+    # b
+    "What is Star-Lord's Mother's Name? \n(a) Meredith Quill \n(b) Joan "
+    "Quill \n(c) Jane Quill \n(d) Anna Quill" '\n',
+    # a
+    "What's Hawkeye's real name? \n(a) Barton Carter \n(b) Clint Coulson \n("
+    "c) Clint Barton \n(d) Bart Clinton" '\n',
+    # d
 ]
 
 questions = [
@@ -130,9 +150,14 @@ questions = [
     Question(question_number[2], "c"),
     Question(question_number[3], "b"),
     Question(question_number[4], "a"),
-    Question(question_number[c], "c"),
-
-
+    Question(question_number[5], "c"),
+    Question(question_number[6], "d"),
+    Question(question_number[7], "d"),
+    Question(question_number[8], "d"),
+    Question(question_number[9], "b"),
+    Question(question_number[10], "b"),
+    Question(question_number[11], "a"),
+    Question(question_number[12], "d")
 ]
 
 
