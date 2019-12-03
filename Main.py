@@ -105,7 +105,7 @@ class Question:
 
 question_number = [
     "When was Marvel Entertainment LLC Founded ? \n(a) 1980 \n(b) "
-    "2008 \n(c) 1998  \n(d) 1923" '\n',
+    "2008 \n(c) 1998  \n(d) 1988" '\n',
     # c
     "What alien race does Ronan the Accuser belong to? \n(a) "
     "Kree \n(b) Celestials \n(c) Phalanx \n(d) Skrulls" '\n',
@@ -116,15 +116,15 @@ question_number = [
     "What team does Johnny Storm belong to? \n(a) The X-Men \n(b) The "
     "Fantastic 4 \n(c) The Avengers \n(d) None of the Above" '\n',
     # b
-    "Who came first? \n(a) Detective Comics \n(b)Marvel" '\n',
+    "Who came first? \n(a) Detective Comics \n(b) Marvel" '\n',
     # a
     "What is Loki's last Name? \n(a) Surtur-son \n(b) Odin-son \n(c) "
     "Laufey-son \n(d) Urik-son" '\n',
     # c
-    "Who is Thor's sister in the MCU? \n(a)Freya \n(b)Nanna \n(c)Thrud \n(d) "
-    "Hela" '\n',
+    "Who is Thor's sister in the MCU? \n(a) Freya \n(b) Nanna \n(c) Thrud \n("
+    "d) Hela" '\n',
     # d
-    "Who can pick up Thor's hammer? \n(a)Loki \n(b)Iron Man \n(c)Pepper \n("
+    "Who can pick up Thor's hammer? \n(a) Loki \n(b) Iron Man \n(c) Pepper \n("
     "d) Captain America" '\n',
     # d
     "Who developed the super soldier serum in Captain America? \n(a) Dr. "
@@ -134,7 +134,7 @@ question_number = [
     "Blonsky \n(c) Georges Batroc \n(d) Thunderbolt' Ross" '\n',
     # b
     "What was Sam Wilson before he became Falcon \n(a) A Navy Seal \n(b) A "
-    "Pararescue \n(c) A Pilot \n(d) A Professional Daredevil" '\n',
+    "Para-rescue \n(c) A Pilot \n(d) A Professional Daredevil" '\n',
     # b
     "What is Star-Lord's Mother's Name? \n(a) Meredith Quill \n(b) Joan "
     "Quill \n(c) Jane Quill \n(d) Anna Quill" '\n',
