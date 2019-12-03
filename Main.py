@@ -161,20 +161,34 @@ questions = [
 ]
 
 
-def run_quiz(questions):
+def run_quiz(new_questions):
     """
 
-    :param questions:
+    :param new_questions:
     :return:
     """
     score = 0
-    for question in questions:
+    for question in new_questions:
         answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-    print("Your score is", score, "out of", len(questions))
+    print("Your score is", score, "out of", len(new_questions))
 
-    print("Thank you for taking my quiz.I Hope you had fun!")
 
+def :
+    pass
+
+
+try:
+    if len(score) == 12:
+        print("You are a Marvel Genius!")
+    elif len(score) < 6 > 12:
+        print('You did great, but you may want to refresh your mind! \n '
+              'Try Again!')
+    else:
+        print("Try again.")
+
+
+print("Thank you for taking my quiz.I Hope you had fun!")
 
 run_quiz(questions)
