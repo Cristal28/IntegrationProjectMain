@@ -173,8 +173,7 @@ def run_quiz(new_questions):
         if answer == question.answer:
             score += 1
     print("Your score is", score, "out of", len(new_questions))
+    print("Thank you for taking my quiz.I Hope you had fun!")
 
-
-print("Thank you for taking my quiz.I Hope you had fun!")
 
 run_quiz(questions)
