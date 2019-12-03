@@ -104,19 +104,34 @@ class Question:
 
 
 question_number = [
-    "Who was the First Avenger according to the movies? \n(a) Thor \n(b) "
-    "IronMan \n(c) Captain "
-    "America \n(d) Hulk" '\n',
+    "When was Marvel Entertainment LLC Founded ? \n(a) 1980 \n(b) "
+    "2008 \n(c) 1998  \n(d) 1923" '\n',
+    # c
     "What alien race does Ronan the Accuser belong to? \n(a) "
     "Kree \n(b) Celestials \n(c) Phalanx \n(d) Skrulls" '\n',
+    # a
     "How many Infinity Stones are there in the MCU? \n(a) 10 \n(b) 5 \n(c) 6 "
     "\n(d) 3" '\n',
+    # c
+    "What team does Johnny Storm belong to? \n(a) The X-Men \n(b) The "
+    "Fantastic 4 \n(c) The Avengers \n(d) None of the Above '\n'",
+    # b
+    "Who came first? \n(a) Detective Comics \n(b)Marvel '\n'",
+    # a
+    "What is Loki's last Name? \n(a) Surtur-son \n(b) Odin-son \n(c) "
+    "Laufey-son \n(d) Urik-son '\n'"
+    # c
+    ""
 ]
 
 questions = [
     Question(question_number[0], "c"),
     Question(question_number[1], "a"),
     Question(question_number[2], "c"),
+    Question(question_number[3], "b"),
+    Question(question_number[4], "a"),
+    Question(question_number[c], "c"),
+
 
 ]
 
